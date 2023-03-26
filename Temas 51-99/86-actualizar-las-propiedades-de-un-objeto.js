@@ -14,9 +14,9 @@ console.log(mochila.color); // azul
 mochila.color = "verde";
 console.log(mochila.color); // verde
 
-console.log(contenido);
+console.log(mochila.contenido);
 mochila.contenido.push("lápiz");
-console.log(contenido);
+console.log(mochila.contenido);
 
 mochila.contenido = [];
 console.log(mochila.contenido);
