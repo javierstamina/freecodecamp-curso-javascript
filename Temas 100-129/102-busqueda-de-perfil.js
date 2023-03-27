@@ -34,9 +34,9 @@ function buscarPerfil(nombre, propiedad) {
   return "El contacto no está en la lista";
 }
   
-buscarPerfil("Nora", "gustos");
-buscarPerfil("Harry", "apellido");
-buscarPerfil("Sherlock", "apellido");
+console.log(buscarPerfil("Nora", "gustos"));
+console.log(buscarPerfil("Harry", "apellido"));
+console.log(buscarPerfil("Sherlock", "apellido"));
 
-buscarPerfil("Nora", "dirección"); // La propiedad no existe.
-buscarPerfil("Bob", "numero");     // El contacto no existe.
+console.log(buscarPerfil("Nora", "dirección")); // La propiedad no existe.
+console.log(buscarPerfil("Bob", "numero"));     // El contacto no existe.
